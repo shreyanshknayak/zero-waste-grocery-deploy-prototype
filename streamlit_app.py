@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Zero-Waste Grocery Helper", layout="wide")
-st.title("🥕 Zero-Waste Grocery Helper")
+st.title("🥕 Little Leftovers: Zero-Waste Grocery Helper")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
