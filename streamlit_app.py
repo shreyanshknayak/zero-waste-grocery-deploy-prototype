@@ -20,7 +20,7 @@ if user_input:
         "message": user_input,
         "state": st.session_state.state
     }
-    response = requests.post("http://localhost:8000/chat", json=payload)
+    response = requests.post("https://shreyanshknayak-zero-waste-grocery.hf.space/chat", json=payload)
     print(response.text)
     response_data = response.json()
     
